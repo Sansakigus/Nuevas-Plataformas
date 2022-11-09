@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="202dp"
+        android:layout_marginTop="112dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/unsa_logo" />
+
+    <Button
+        android:id="@+id/btnLogin1"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="44dp"
+        android:backgroundTint="#331436"
+        android:drawableLeft="@android:drawable/ic_menu_send"
+        android:text="Iniciar Sesión"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnActivityMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnActivityMenu"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#331436"
+        android:drawableLeft="@android:drawable/ic_menu_agenda"
+        android:text="Registrate"
+        android:textColorHighlight="#331436"
+        android:textColorLink="#331436"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textTabla"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</LinearLayout>
